@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: serif;
+
+}
+body
+{
+	background-color: #E5E8E8;
+}
+p
+ {
+  color: blue;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 10px;
+}
+a
+{
+	color: inherit;
+	text-decoration: none; /* memberikan efek garis */
+}
+#bg-login 
+{
+	display: flex;
+	height: 100vh;
+	justify-content: center; /* mensejajarkan pada bg-login */
+	align-items: center;
+}
+.box-login
+{
+	width: 250px;
+	min-height: 200px;
+	border: 1px solid #ccc; /* untuk style pada garis */
+	background-color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+.box-login h2
+{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.input-control
+{
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+}
+.btn 
+{
+	padding: 8px;
+	background-color: #900C3F;
+	color: #fff;
+	border:none;
+	cursor: pointer;
+}
+header
+{
+	background-color: #34495E;
+	color: #fff;
+
+}
+header h1 
+{
+	float: left;
+	padding: 10px 0;
+}
+header ul	
+{
+	float: right; /* untuk layout pada website */
+}
+header ul li
+{
+	display: inline-block;
+}
+header ul li a
+{
+	padding: 20px 50px 10px 0px; /*untuk mengatur sisi tiap elemen di dalam */
+	display: inline-block;
+}
+.containerr
+{
+	width: 80%;
+	margin:0 auto; /*  mengatur jarak pada elemen di luar*/
+}
+.container:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
+.section
+{
+	padding: 25px 40px;
+}
+.box
+{
+	background-color: #fff;
+	border: 1px solid #ccc; 
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 10px 0;
+}
+footer
+{
+	padding: 0 50px;
+}
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.table tr
+{
+	height: 30px;
+}
+.table tr td
+{
+	padding: 5px 10px;
+}
